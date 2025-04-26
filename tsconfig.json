@@ -1,0 +1,8 @@
+{
+  "extends": "./config/build/tsconfig.base.json",
+  "include": ["./src/**/*"],                             /* [.ts, .tsx, .d.ts] by default */
+  "compilerOptions": {
+    "baseUrl": "./src/",                                 /* Specify the base directory to resolve non-relative module names. */
+    "outDir": "./dest/",                                 /* Specify an output folder for all emitted files. */
+  }
+}
