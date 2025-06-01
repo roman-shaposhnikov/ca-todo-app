@@ -30,11 +30,11 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "typescript": "^5.6.2",
-    "vite": "^5.4.9",
+    "vite": "^6.3.5",
     "vite-plugin-svgr": "^4.2.0",
     "vite-tsconfig-paths": "^5.0.1",
     "vite-wessberg-di": "^0.1.1",
-    "vitest": "^2.1.2"
+    "vitest": "^3.1.4"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
