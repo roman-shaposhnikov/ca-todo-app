@@ -1,3 +1,6 @@
+/**
+ * Invoke callback immediately, but wait for ms to resolve with a value
+*/
 export const asyncDelay = async <Return>(
   cb: () => Promise<Return>,
   ms: number = 1000
