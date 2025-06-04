@@ -1,0 +1,7 @@
+{
+  "name": "custom-controls",
+  "type": "module",
+  "devDependencies": {
+    "controls": "file:../controls"
+  }
+}
