@@ -1,0 +1,7 @@
+@startuml app
+!include entities.pu
+!include dal.pu
+
+class SortedTasks
+
+@enduml
