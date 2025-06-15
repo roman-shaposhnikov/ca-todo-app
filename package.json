@@ -2,13 +2,23 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "test:types": "tsc --noEmit"
+    "test": "npm run test:types",
+    "test:types": "tsc --noEmit",
+    "lint": "npx eslint"
   },
   "dependencies": {
     "typescript": "^5.8.3"
   },
   "devDependencies": {
-    "vitest": "^3.2.2",
-    "@types/node": "^22.7.5"
+    "@eslint/js": "^9.28.0",
+    "@types/node": "^22.7.5",
+    "eslint": "^9.28.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-eo-plugin": "file:../eslint-eo-plugin/dist",
+    "globals": "^16.2.0",
+    "jiti": "^2.4.2",
+    "prettier": "3.5.3",
+    "typescript-eslint": "^8.33.1",
+    "vitest": "^3.2.2"
   }
 }
