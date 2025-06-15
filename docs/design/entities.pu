@@ -1,0 +1,31 @@
+@startuml entities
+
+interface TodoList {
+  +rename(String to)
+}
+
+interface Task {
+  +rename(String to)
+  +delete()
+  +complete()
+  +uncomplete()
+}
+
+TodoList "1" o-- "0..*" Task
+
+interface DataSource<T extends Data> {
+  +create()
+  +read()
+  +update()
+  +delete()
+}
+
+interface Data {
+  +id()
+}
+
+interface Task extends Data {
+
+}
+
+@enduml

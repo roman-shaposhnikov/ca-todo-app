@@ -1,0 +1,8 @@
+@startuml dal
+!include entities.pu
+
+class TasksRepository
+
+DataSource <|.. TasksRepository
+
+@enduml
