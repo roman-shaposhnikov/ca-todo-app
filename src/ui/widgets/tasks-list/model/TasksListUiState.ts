@@ -11,10 +11,10 @@ export type TasksCount = {
 }
 
 export class TaskUiState {
-  id: TaskId
-  title: string
-  description: string
-  isCompleted: boolean
+  id!: TaskId
+  title!: string
+  description!: string
+  isCompleted!: boolean
 
   constructor(arg: TaskUiState) {
     Object.assign(this, arg)
@@ -32,9 +32,9 @@ export const taskUiState = (
 })
 
 export class TasksListUiState {
-  tasks: TaskUiState[]
-  view: TasksListView
-  tasksCount: TasksCount
+  tasks!: TaskUiState[]
+  view!: TasksListView
+  tasksCount!: TasksCount
 
   constructor(arg: TasksListUiState) {
     Object.assign(this, arg)
@@ -51,9 +51,9 @@ export const tasksListUiState = (
 })
 
 export class EmptyTasksListUiState {
-  message: string
-  view: TasksListView
-  tasksCount: TasksCount
+  message!: string
+  view!: TasksListView
+  tasksCount!: TasksCount
 
   constructor(arg: EmptyTasksListUiState) {
     Object.assign(this, arg)

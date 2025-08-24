@@ -1,8 +1,8 @@
 import { NewTaskData } from "application/task"
 
 class ReadyToSubmit implements NewTaskData {
-  title: string
-  description: string
+  title!: string
+  description!: string
 
   constructor(arg: ReadyToSubmit) {
     Object.assign(this, arg)
@@ -33,7 +33,6 @@ export const disabledSubmitUiState = (
   new DisabledSubmit({
     title: "",
     description: "",
-    message: undefined,
     ...data,
   })
 

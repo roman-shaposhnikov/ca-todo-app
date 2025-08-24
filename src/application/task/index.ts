@@ -1,4 +1,5 @@
-export { AddTaskUseCase, NewTaskData } from "./AddTaskUseCase"
+export { AddTaskUseCase } from "./AddTaskUseCase"
+export type { NewTaskData } from "./AddTaskUseCase"
 export { CompleteTaskUseCase } from "./CompleteTaskUseCase"
 export { RemoveTaskUseCase } from "./RemoveTaskUseCase"
 export { ReopenTaskUseCase } from "./ReopenTaskUseCase"

@@ -24,7 +24,7 @@ export const TasksViewFilter: FC<TasksViewFilterProps> = ({
     <span className={s.label}>Show:</span>
 
     <ul className={s.list}>
-      {views.map(view => (
+      {views.map((view) => (
         <li
           key={view}
           className={cl({ [s.selected!]: selected === view })}

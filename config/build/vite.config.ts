@@ -12,7 +12,7 @@ export default defineConfig({
   base: "./",
 
   build: {
-    outDir: "../../dist", // relative to "root"
+    outDir: "../../dest", // relative to "root"
     target: "esnext",
   },
 })
